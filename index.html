@@ -1,18 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="cs">
 <head>
   <meta charset="UTF-8">
-  <title>Můj první web</title>
-  <script>
-    var heslo = prompt("Zadej heslo:");
-    if (heslo !== "tickly") {
-      alert("Špatné heslo! Přesměrování pryč...");
-      window.location.href = "https://www.google.com"; // Kam ho pošleš když zadá špatné heslo
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moje sociální sítě</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-image: url('https://source.unsplash.com/1920x1080/?abstract,background');
+      background-size: cover;
+      color: white;
+      margin: 0;
+      padding: 0;
     }
-  </script>
+    header {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+    }
+    h1 {
+      margin: 0;
+    }
+    .social-links {
+      margin: 50px 0;
+    }
+    a {
+      display: inline-block;
+      margin: 10px;
+      padding: 15px 30px;
+      background-color: rgba(0, 0, 0, 0.7);
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+    a:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+  </style>
 </head>
 <body>
-  <h1>Ahoj světe!</h1>
-  <p>Tohle je můj první web přes GitHub Pages 😎</p>
+  <header>
+    <h1>Moje sociální sítě</h1>
+    <p>Klikněte na odkaz a navštivte mé profily!</p>
+  </header>
+  <div class="social-links">
+    <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+    <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+    <a href="https://twitter.com/" target="_blank">Twitter</a>
+    <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+  </div>
 </body>
 </html>
