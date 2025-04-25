@@ -18,7 +18,7 @@
       font-family: Arial, sans-serif;
     }
 
-    /* Nastavení pozadí */
+    /* Pozadí stránky */
     body {
       background: url('https://source.unsplash.com/1920x1080/?abstract') no-repeat center center/cover;
       display: flex;
@@ -26,15 +26,14 @@
       justify-content: center;
     }
 
-    /* Kontejner karty */
+    /* Kontejner karty s odkazy (bez vlastního pozadí) */
     .linktree-card {
-      background: rgba(0, 0, 0, 0.7);
       padding: 2rem;
       border-radius: 10px;
       max-width: 400px;
       width: 90%;
       text-align: center;
-      box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+      /* Pozadí a box-shadow odstraněny, takže karty jsou transparentní */
     }
 
     .linktree-card h1 {
@@ -73,7 +72,6 @@
     <a href="https://www.instagram.com/" target="_blank">Instagram</a>
     <a href="https://twitter.com/" target="_blank">Twitter</a>
     <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
-    <!-- Přidejte další odkazy, pokud potřebujete -->
   </div>
 </body>
 </html>
