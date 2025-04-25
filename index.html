@@ -18,23 +18,23 @@
       font-family: Arial, sans-serif;
     }
 
-    /* Nastavení pozadí stránky */
+    /* Nastavení pozadí */
     body {
-      background: url('https://media.discordapp.net/attachments/1104396559644360825/1365393684085870653/cervane.jpg?ex=680d2576&is=680bd3f6&hm=f75e7b0d65f84d72a823b679c612099c4a98973a1567ec7f8534c09c60d52cb5&=&format=webp') no-repeat center center/cover;
+      background: url('https://source.unsplash.com/1920x1080/?abstract') no-repeat center center/cover;
       display: flex;
       align-items: center;
       justify-content: center;
     }
 
-    /* Kontejner karty s odkazy (transparentní pozadí) */
+    /* Kontejner karty */
     .linktree-card {
-      background: transparent; /* Transparentní pozadí */
+      background: rgba(0, 0, 0, 0.7);
       padding: 2rem;
       border-radius: 10px;
       max-width: 400px;
       width: 90%;
       text-align: center;
-      /* Odstraněno: box-shadow, aby byla karta opravdu průhledná */
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
     }
 
     .linktree-card h1 {
@@ -68,10 +68,12 @@
 <body>
   <div class="linktree-card">
     <h1>Moje odkazy</h1>
-    <p>Sleduj mě na sociálních sítích</p>
-    <a href="https://www.youtube.com/@tickly50" target="_blank">Youtube</a>
+    <p>Následuj mě na sociálních sítích</p>
+    <a href="https://www.facebook.com/" target="_blank">Facebook</a>
     <a href="https://www.instagram.com/" target="_blank">Instagram</a>
     <a href="https://twitter.com/" target="_blank">Twitter</a>
+    <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+    <!-- Přidejte další odkazy, pokud potřebujete -->
   </div>
 </body>
 </html>
