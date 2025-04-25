@@ -18,7 +18,7 @@
       font-family: Arial, sans-serif;
     }
 
-    /* Nastavení pozadí */
+    /* Nastavení pozadí stránky */
     body {
       background: url('https://media.discordapp.net/attachments/1104396559644360825/1365393684085870653/cervane.jpg?ex=680d2576&is=680bd3f6&hm=f75e7b0d65f84d72a823b679c612099c4a98973a1567ec7f8534c09c60d52cb5&=&format=webp') no-repeat center center/cover;
       display: flex;
@@ -26,15 +26,15 @@
       justify-content: center;
     }
 
-    /* Kontejner karty */
+    /* Kontejner karty s odkazy (transparentní pozadí) */
     .linktree-card {
-      background: rgba(0, 0, 0, 0.7);
+      background: transparent; /* Transparentní pozadí */
       padding: 2rem;
       border-radius: 10px;
       max-width: 400px;
       width: 90%;
       text-align: center;
-      box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+      /* Odstraněno: box-shadow, aby byla karta opravdu průhledná */
     }
 
     .linktree-card h1 {
@@ -72,7 +72,6 @@
     <a href="https://www.youtube.com/@tickly50" target="_blank">Youtube</a>
     <a href="https://www.instagram.com/" target="_blank">Instagram</a>
     <a href="https://twitter.com/" target="_blank">Twitter</a>
-    <!-- Přidejte další odkazy, pokud potřebujete -->
   </div>
 </body>
 </html>
