@@ -3,6 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <title>Můj první web</title>
+  <script>
+    var heslo = prompt("Zadej heslo:");
+    if (heslo !== "tajneheslo") {
+      alert("Špatné heslo! Přesměrování pryč...");
+      window.location.href = "https://www.google.com"; // Kam ho pošleš když zadá špatné heslo
+    }
+  </script>
 </head>
 <body>
   <h1>Ahoj světe!</h1>
