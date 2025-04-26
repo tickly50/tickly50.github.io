@@ -1,1 +1,1 @@
-<img src="https://cdn.discordapp.com/attachments/1104396559644360825/1365640265863528458/link_logo_122.png?ex=680e0b1b&is=680cb99b&hm=b1b790d9a1e79865737753d710f900967f4c5a29e22b78557d9bd69edbbae112&"/> https://tickly50.github.io/
+📍 https://tickly50.github.io/
